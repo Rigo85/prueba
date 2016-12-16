@@ -1,11 +1,12 @@
 ALTER PROC InsertarProducto
 @ProductName VARCHAR(100),
 @Description VARCHAR(255),
-@Price DECIMAL(18,0)
+@Price DECIMAL(18,5),
+@Active BIT
 AS
 
-	INSERT INTO dbo.Product(ProductName, ProductDesc, Price) 
-		VALUES (@ProductName, @Description, @Price);
+	INSERT INTO dbo.Product(ProductName, ProductDesc, Price, Active) 
+		VALUES (@ProductName, @Description, @Price, @Active);
 
 	SELECT SCOPE_IDENTITY() AS [SCOPE_IDENTITY]
 
@@ -15,13 +16,15 @@ ALTER PROC ActualizarProducto
 @ProductID INT,
 @ProductName VARCHAR(100),
 @Description VARCHAR(255),
-@Price DECIMAL(18,0)
+@Price DECIMAL(18,5),
+@Active BIT
 AS
 
 	UPDATE [dbo].[Product] 
 		SET [ProductName] = @ProductName
 			,[ProductDesc] = @Description
-			,[price] = @Price
+			,[Price] = @Price
+			,[Active] = @Active
 		WHERE 
 			[ProductoID] = @ProductID
 
@@ -31,8 +34,10 @@ ALTER PROC EliminarProducto
 @ProductID INT
 AS
 
-	DELETE FROM [dbo].[Product]
-		WHERE [ProductoID] = @ProductID
+	UPDATE [dbo].[Product] 
+		SET [Active] = 0
+		WHERE 
+			[ProductoID] = @ProductID
 
 GO
 
@@ -44,19 +49,22 @@ AS
 	SELECT [ProductoID]
 		  ,[ProductName]
 		  ,[ProductDesc]
-		  ,[price]
+		  ,[Price]
+		  ,[Active]
 	  FROM [dbo].[Product]
+	  WHERE [Active] = 1
 	  ORDER BY [ProductoID]
 	  OFFSET @offset ROWS
 	  FETCH NEXT @maxElements ROWS ONLY;
 
 GO
 
-CREATE PROC ObtenerProducto
+ALTER PROC ObtenerProducto
 @ProductID INT
 AS
 
 	SELECT * FROM  [dbo].[Product] 
-		WHERE [ProductoID] = @ProductID;
+		WHERE [ProductoID] = @ProductID 
+		AND [Active] = 1;
 
 GO

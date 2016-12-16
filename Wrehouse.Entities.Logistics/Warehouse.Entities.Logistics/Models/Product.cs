@@ -18,7 +18,7 @@ namespace Warehouse.Entities.Logistics
         public string ProductName { get; set; }
         public string Description { get; set; }
         public float Price { get; set; }
-
+        public bool Active { get; set; }
         public override string ToString()
         {
             return string.Format("{0} {1} {2} {3}", ProductID, ProductName, Description, Price);

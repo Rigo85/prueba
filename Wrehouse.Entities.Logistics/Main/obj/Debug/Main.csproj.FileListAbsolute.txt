@@ -1,5 +1,5 @@
-C:\Users\USUARIO\Desktop\Estudio\Wrehouse.Entities.Logistics\Main\bin\Debug\Main.exe.config
 C:\Users\USUARIO\Desktop\Estudio\Wrehouse.Entities.Logistics\Main\obj\Debug\Main.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Desktop\Estudio\Wrehouse.Entities.Logistics\Main\bin\Debug\Main.exe.config
 C:\Users\USUARIO\Desktop\Estudio\Wrehouse.Entities.Logistics\Main\bin\Debug\Main.exe
 C:\Users\USUARIO\Desktop\Estudio\Wrehouse.Entities.Logistics\Main\bin\Debug\Main.pdb
 C:\Users\USUARIO\Desktop\Estudio\Wrehouse.Entities.Logistics\Main\bin\Debug\Warehouse.DAO.Logistics.dll

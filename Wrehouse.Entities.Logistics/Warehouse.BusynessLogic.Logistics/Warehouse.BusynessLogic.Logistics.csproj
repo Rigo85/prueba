@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9808E7E2-0186-47CC-95E4-BE0260980EAC}</ProjectGuid>
+    <ProjectGuid>{DC2A34E9-8CF6-48F9-B66C-34A5588C9FE5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Warehouse.Entities.Logistics</RootNamespace>
-    <AssemblyName>Warehouse.Entities.Logistics</AssemblyName>
+    <RootNamespace>Warehouse.BusynessLogic.Logistics</RootNamespace>
+    <AssemblyName>Warehouse.BusynessLogic.Logistics</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,7 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Product.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
