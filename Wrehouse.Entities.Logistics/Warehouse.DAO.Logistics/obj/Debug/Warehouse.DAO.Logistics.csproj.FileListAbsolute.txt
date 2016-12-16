@@ -1,0 +1,7 @@
+C:\Users\USUARIO\Desktop\Estudio\Wrehouse.Entities.Logistics\Warehouse.DAO.Logistics\obj\Debug\Warehouse.DAO.Logistics.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Desktop\Estudio\Wrehouse.Entities.Logistics\Warehouse.DAO.Logistics\bin\Debug\Warehouse.DAO.Logistics.dll
+C:\Users\USUARIO\Desktop\Estudio\Wrehouse.Entities.Logistics\Warehouse.DAO.Logistics\bin\Debug\Warehouse.DAO.Logistics.pdb
+C:\Users\USUARIO\Desktop\Estudio\Wrehouse.Entities.Logistics\Warehouse.DAO.Logistics\bin\Debug\Warehouse.Entities.Logistics.dll
+C:\Users\USUARIO\Desktop\Estudio\Wrehouse.Entities.Logistics\Warehouse.DAO.Logistics\bin\Debug\Warehouse.Entities.Logistics.pdb
+C:\Users\USUARIO\Desktop\Estudio\Wrehouse.Entities.Logistics\Warehouse.DAO.Logistics\obj\Debug\Warehouse.DAO.Logistics.dll
+C:\Users\USUARIO\Desktop\Estudio\Wrehouse.Entities.Logistics\Warehouse.DAO.Logistics\obj\Debug\Warehouse.DAO.Logistics.pdb

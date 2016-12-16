@@ -1,0 +1,4 @@
+C:\Users\USUARIO\Desktop\Estudio\Wrehouse.Entities.Logistics\Warehouse.Entities.Logistics\bin\Debug\Warehouse.Entities.Logistics.dll
+C:\Users\USUARIO\Desktop\Estudio\Wrehouse.Entities.Logistics\Warehouse.Entities.Logistics\bin\Debug\Warehouse.Entities.Logistics.pdb
+C:\Users\USUARIO\Desktop\Estudio\Wrehouse.Entities.Logistics\Warehouse.Entities.Logistics\obj\Debug\Warehouse.Entities.Logistics.dll
+C:\Users\USUARIO\Desktop\Estudio\Wrehouse.Entities.Logistics\Warehouse.Entities.Logistics\obj\Debug\Warehouse.Entities.Logistics.pdb
